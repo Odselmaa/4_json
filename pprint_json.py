@@ -11,12 +11,12 @@ def load_data(filepath):
 
 
 def pretty_print_json(data):
-    print(json.dumps(
+    return json.dumps(
                     data,
                     indent=4,
                     separators=(',', ': '),
                     ensure_ascii=False
-                    ))
+                    )
 
 
 if __name__ == '__main__':
@@ -27,5 +27,5 @@ if __name__ == '__main__':
 
     if file_path is not None:
         data = load_data(file_path)
-        pretty_print_json(data)
-
+        pretty_data = pretty_print_json(data)
+        print(pretty_data)
