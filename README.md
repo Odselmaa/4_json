@@ -3,15 +3,15 @@ http://github.com/Odselmaa/4_json
 ## What is this?
 This 4_json.py code for printing JSON FILE prettily. 
 
-## WHY?
+## Why?
 JSON is used in wide area of programming, development and so on. 
 So in order be compatible for reading, understanding structure of it
 we use "PRETTY PRINT".
 
-## HOW TO MAKE IT RUN?
+## How to make it run?
 In order to do that, need to input any JSON file path when program ask.
 
-## bars.py
+## pprint_json.py
  - **load_data(filepath)**
     loads json data from given path, returns json data as an array</br>
     _filepath</br>
